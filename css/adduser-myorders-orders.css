@@ -1,0 +1,93 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header .div1 {
+    display: flex;
+    align-items: center;
+    
+}
+header div{
+    padding: 5px;
+}
+header div img{
+    width: 100px;
+    margin: 0px 5px;
+}
+header div a,.logout{
+    margin-right: 5px;
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------date field------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------- */
+.enterdate{
+    margin-left: 5px;
+}
+.enterdate input{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+table{
+    margin-top: 10px;
+    width: 100%;
+}
+table tr{
+    border: solid 1px;
+}
+table tr th{
+    border: solid 1px;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: rgb(148, 148, 148);
+}
+table tr td{
+    border: solid 1px;
+    padding: 20px 10px;
+    background-color: rgb(221, 221, 221);
+}
+.action{
+    cursor: pointer;
+}
+table tr td span{
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+table tr td div{
+    display: inline-block;
+    /* border: solid 1px; */
+}
+table tr td img{
+    width: 100%;
+    max-height: 200px;
+    /* height: 200px; */
+    /* height: 70%; */
+}
+table tr td .productname{
+    font-weight: 700;
+}
+table tr td .price{
+    border: solid 1px black;
+}
+.totalprice{
+    width: 30%;
+    float: right;
+    margin-top: 15px;
+    padding: 15px;
+    font-weight: 700;
+}
+.totalprice span{
+    float: right;
+
+}
+/* --------------------------------------------------------add user page---------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------- */
+form label{
+    font-weight: 700;
+}
+form input{
+    width: 100%;
+}

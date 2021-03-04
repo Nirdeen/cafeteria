@@ -1,0 +1,71 @@
+body {
+    /* min-height: 100vh; */
+    /* background: rgba(0, 0, 0, 0.5);; */
+    margin-right: 1%;
+    font-family: "Kaushan Script", cursive !important;
+    /* font-family: "Lato", Arial, sans-serif; */
+    margin-bottom: 5%;
+    height: fit-content;
+}
+
+
+.price {
+    background-color: rgba(42, 41, 41, 0.762);
+    display: flex;
+    /* float: right; */
+    left: 40%;
+    width: fit-content;
+    color: white;
+    border-radius: 50%;
+    border: #fbb448 2px solid;
+    font-family: "Kaushan Script", cursive;
+    font-weight: bold;
+    text-align: center;
+    padding: 5%;
+}
+
+.carousel-caption {
+    display: flex;
+    justify-content: center;
+}
+
+.cat {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 3s ease-in-out;
+}
+
+.cat :hover {
+    color: #fbb448;
+    transform: translateY(-3px);
+    /* zoom: 95%; */
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}
+
+table {
+    width: 100%;
+}
+
+.parent th{
+    cursor: pointer;
+}
+
+/* .progress {
+    height: 500px;
+} */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
